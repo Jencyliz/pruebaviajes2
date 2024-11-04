@@ -1,0 +1,19 @@
+.carousel-item {
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 768px) {
+    .carousel-item {
+        height: 500px;
+    }
+}
+
+@media (max-width: 769px) {
+    .carousel-item {
+        height: 300px;
+    }
+}
